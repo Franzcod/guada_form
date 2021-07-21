@@ -75,12 +75,13 @@ input:focus {
 /* BOTON 2 */
 
 .container .form form #btn2{
-    margin: 30px auto;   /* SACAR PARA DESCENTRAR */
+    margin: 50px auto;   /* SACAR PARA DESCENTRAR */
     font-family: 'Roboto', sans-serif;
     /* margin-top: 25px; */
     font-size: 2vw;
     padding: 12px;
-    width: fit-content;
+    /* width: fit-content; */  /* ANCHO DEL TEXTO */
+    width: 60%;   /* MISMO ANCHO DEL INPUT */
     background-color: rgba(240, 151, 78, 0.61) ;
     font-weight: 700;
     border: transparent;
